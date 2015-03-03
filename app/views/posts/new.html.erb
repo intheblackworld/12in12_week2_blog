@@ -1,0 +1,145 @@
+<div class= 'col-md-9 col-md-offset-3'>
+
+<h1>New Post1</h1>
+<div class= 'row'>
+<div class= "col-md-6">
+<div class="form-group">
+<%= form_for :post, url: posts_path do |f|%>
+<%= f.label :title %><br>
+<%= f.text_field :title, class: 'form-control' %><br>
+<%= f.label :body %><br>
+<%= f.text_field :body, class: 'form-control'%><br>
+<%= f.button :submit ,:class => 'btn btn-primary' %>
+
+<% end %>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>New Post2</h1>
+<%= form_for :post, url: posts_path  do |f| %>
+<%= f.label :title %><br>
+<%= f.text_field :title %><br>
+<%= f.label :body %><br>
+<%= f.text_field :body %><br>
+<%= f.submit %>
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>New Post3</h1>
+<%= form_for :post, url: posts_path do |f| %>
+<%= f.label :title %><br>
+<%= f.text_field :title %><br>
+<%= f.label :body %><br>
+<%= f.text_field :body %><br>
+<%= f.submit %>
+<%end%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>New Post4</h1>
+<%= form_for :post , url: posts_path do |f| %>
+<%= f.label :title %><br>
+<%= f.text_field :title %><br>
+<%= f.label :body %><br>
+<%= f.text_field :body %><br>
+<%= f.submit %>
+<%end%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>New Post5</h1>
+<%= form_for :post, url: posts_path do |f| %>
+<%= f.label :title %><br>
+<%= f.text_field :title %><br>
+<%= f.label :body %><br>
+<%= f.text_field :body %><br>
+<%= f.submit %>
+<%end%>
+
+
+
+
+
+
+</div>
