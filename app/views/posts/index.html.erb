@@ -1,1 +1,16 @@
-<%= link_to "add New Post", new_post_path %>
+<% @posts.each do |post| %>
+  <div class="post_wrapper">
+    <h2 class="title"><%= link_to post.title, post %>
+    <p class="date"><%= post.created_at.strftime("%B %d, %Y") %>
+  </div>
+<%end%>
+
+
+
+
+
+
+
+
+
+
